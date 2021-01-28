@@ -26,7 +26,10 @@ movimiento en el área.
 Por último, para ahorrar energía se implementarán 2 switchs, que permiten el ahorro de energía en el estado (AB=11). Si uno se encuentra encendido las luces o sistema de monitorio podría o no encenderse, dependiendo de L, para las luces se implementa un dimmer programable para atenuar la luz de acuerdo con el requerimiento del usuario y el nivel de ahorro de energía que desee, y dependiendo de R para el monitoreo, además si en cierto tiempo no se detecta movimiento este se apaga.
 
 ### Funciones con don't cares minimizadas mediante mapas de Karnaugh
+
 F1 = A'L' + B'R
+
 F2 = A'R M
 
 ### Circuito en Proteus
+![Circuitoproteus](https://user-images.githubusercontent.com/69025663/106086873-f2642900-60f0-11eb-8d29-e5a3282866cb.png)
